@@ -1,0 +1,335 @@
+[
+    {
+        "id": "simulateTOD_0000",
+        "dialog": [
+            "That is great! How long has she been alive?    I have a mom who is as well.",
+            "That is awesome. My wife and kids are overseas right now. I miss them! lol",
+            "Yes, I'm afraid, I'll join you. Is that correct?",
+            "Yes, please do.",
+            "I found [count] attractions you might like. How about the [category] [attraction_name]?",
+            "Okay, great. That's all I need for now.",
+            "Okay, have a great day. I hope you enjoy your day. Bye for now!"
+        ],
+        "intent": {
+            "type": [
+                "FindAttractions"
+            ],
+            "position": 1
+        },
+        "transition_candidates": [
+            "Yes, I'm afraid, I'll join you. Is that correct?",
+            "Okay. Do you really want to keep a friend of mine",
+            "Can I help you with something more?",
+            "You know..."
+        ]
+    },
+    {
+        "id": "simulateTOD_0001",
+        "dialog": [
+            "That is a great name for a cat.  What do you do for a living?  I work in marketing.",
+            "Marketing is cool.  I love working online.  Do you have any hobbies?",
+            "I like eat more coffee and tea. I like tea. I enjoy watching movie.",
+            "I like to watch movies directed by Garth Davis.",
+            "I found [count] movie you might like. How about [title]?",
+            "The Aftermath sounds great. I want to watch it now.",
+            "Please confirm the following: Play the movie: the movie is titled [TAITle] with no subtitles.",
+            "Yes, that sounds good.",
+            "Please confirm: Playing [title] movie with sub titles: do you confirm?",
+            "Yes, I confirm.",
+            "Confirming that you want me to start playing the movie titled, with subtitles."
+        ],
+        "intent": {
+            "type": [
+                "FindMovies"
+            ],
+            "position": 1
+        },
+        "transition_candidates": [
+            "I like eat more coffee and tea. I like tea. I enjoy watching movie.",
+            "Where do you go?",
+            "I like seeing movies like movies by Garth Davis, I like to watch movies by Garth Davis, [title], [title], and [title].",
+            "I teach biology classes and see how to work at IVF. I work in marketing. I like watching movies directed by Garth Davis."
+        ]
+    },
+    {
+        "id": "simulateTOD_0002",
+        "dialog": [
+            "Yeah, I had to figure out my way back home. It was pretty scary at first. ",
+            "How did it turn out? Were you able to find your way back?    - Edit: Do you have any hobbies?",
+            "I've finally found my way home. I love baking and watching movies. What about you?",
+            "I'll try it. I love watching movies.",
+            "Yes, I want to watch Breakthrough.",
+            "I enjoy playing the movie [title]. What do you think about this movie?",
+            "I think I would like to watch this movie now. Please play it with subtitles.",
+            "Can you please confirm that you want to watch the movie titled [ittle_name] now?",
+            "Yes, please play the movie.",
+            "You want to play [title] without subtitles, is that correct?",
+            "Yes, that is correct.",
+            "I will start playing the movie for you. Please confirm that you would like to watch the movie titled [titch_name]."
+        ],
+        "intent": {
+            "type": [
+                "FindMovies"
+            ],
+            "position": 2
+        },
+        "transition_candidates": [
+            "I'll try it. I love watching movies.",
+            "Okay, so we could begin playback movies. Do you like movies?",
+            "I tried to find you.",
+            "No, I'm fine, but I'm pretty happy to announce you are listening to some movies."
+        ]
+    },
+    {
+        "id": "simulateTOD_0003",
+        "dialog": [
+            "I think a few. He is a pretty outgoing person so I know it will be good.",
+            "That sounds great. I hope you have a great time!    Do you have plans for the night?",
+            "I'm going to the beach. It's one of my favorite things to do.  How about you?",
+            "I'm actually going to be on a cruise. The beach is great too though.",
+            "That sounds fun. I've never been on a boat before.  I bet it's a lot of fun.",
+            "I hope so. I'm excited.  Who is your favorite singer?  Mine is Robert Smith.",
+            "I'm interested in buying tickets to the salon, in which the person that's also on the the salon is that in the market.",
+            "I'm in the process of finding a unisex salon in San Francisco.",
+            "I found [count] salons in [city]. How about [stylist_name]?",
+            "That sounds good.",
+            "I found a nice salon, it's called [stilyname]. It's located at [street_address].",
+            "Yeah, that sounds great.",
+            "Do you want me to place a reservation for you at this salon for you?",
+            "Yes, please do.",
+            "Can you please confirm that you want to book a table for [party_size] people at [restaurant_name] in [city] on [date] at [time]?"
+        ],
+        "intent": {
+            "type": [
+                "LookupMusic"
+            ],
+            "position": 5
+        },
+        "transition_candidates": [
+            "I'm interested in buying tickets to the salon, in which the person that's also on the the salon is that in the market.",
+            "Sure. I want to play the guitar in Izbra. I find that, I recommend that you check out that. I am in the process of finding a., in which city do you have any money? How about you? How about you?",
+            "Where are you located?",
+            "You may be surprised by this. How about a singer?"
+        ]
+    },
+    {
+        "id": "simulateTOD_0004",
+        "dialog": [
+            "I'm employed at a local museam. It's great.  What about you?",
+            "I worked at a pizza place. It was pretty fun. What kind of museum do you work at?",
+            "It's a museum, and what is your position?",
+            "Yes, that would be great.",
+            "I found [count] attractions you might like. How about the [attraction_name]? It's a [category].",
+            "Okay, that sounds good.",
+            "Okay, I have a [appointment_time] appointment at the [street_address] for [price], is that okay?",
+            "Yeah, that's fine by me.",
+            "Okay, you want me to make a reservation for [party_size] people at [restaurant_name] in [city] on [date] at [time]. Is that right?",
+            "Yes, that is correct.",
+            "Okay, please confirm that you would like me to book a table for [number_of_riders] people in a shared ride to [destination], is that correct?"
+        ],
+        "intent": {
+            "type": [
+                "FindAttractions"
+            ],
+            "position": 1
+        },
+        "transition_candidates": [
+            "It's a museum, and what is your position?",
+            "What is your job?",
+            "Do you like to visit museums?",
+            "Yes, what is your job?"
+        ]
+    },
+    {
+        "id": "simulateTOD_0005",
+        "dialog": [
+            "Me too! Do you make them yourself? My dad made them for me a lot growing up.",
+            "I do! My favorite thing is shrimp and cheese! What's your favorite?  ",
+            "I like shrimps and onion! With sauce! What about you?  What do you do for work?",
+            "I play baseball professionally! What do do for a living?  Do you have any hobbies?",
+            "I work for an insurance agency. I'm looking for another job! What kind of baseball do you play?",
+            "I play outfield! I'm a catcher. Do you like football?  I love watching the games.",
+            "I love it! Do people ever give you a hard time when you're catching the ball?",
+            "No, not really! I try to stay positive.  Are you married?  Any kids?",
+            "Do you like dating? Do you want a child?",
+            "Yes, I want to go to a museum in Philadelphia.",
+            "I have [count] attractions for you. What about the [attraction_name]? It is a [category].",
+            "What is their contact number?",
+            "You can call them at [phone_number]. I have successfully made your reservation.",
+            "Thanks a lot. That will be all for now.",
+            "Have a great day. I hope you enjoy the rest of your day. Goodbye."
+        ],
+        "intent": {
+            "type": [
+                "FindAttractions"
+            ],
+            "position": 7
+        },
+        "transition_candidates": [
+            "Do you like dating? Do you want a child?",
+            "No problem. You need a relationship. Have a great time!! How about you?",
+            "And yes",
+            "You are married? Are you married?"
+        ]
+    },
+    {
+        "id": "simulateTOD_0006",
+        "dialog": [
+            "It's a good thing you have a supportive family. Do you play video games? I'm addicted to them myself.",
+            "I love them! I work in the circus and they give us a lot of free time.",
+            "That is awesome! I also love to go to the circuses, but I don't get to go as often as I'd like.",
+            "Would you like to go to [destination]? Do you have a friend in a [place_name]?",
+            "Yes, that would be great! I'd also like to find a house to stay in while I'm there.",
+            "There are [count] suitable houses. There is a nice house at [address] with a [rating] rating.",
+            "That house would be ideal.",
+            "Would you like to make a reservation for [number_of_rooms]?",
+            "No, not right now.",
+            "What time would you like me to make the reservations for? Is there anything else I can help you with?",
+            "No, that's all. Thanks.",
+            "No problem. Please enjoy your day. Please let me know if you need help with anything else."
+        ],
+        "intent": {
+            "type": [
+                "FindAttractions"
+            ],
+            "position": 2
+        },
+        "transition_candidates": [
+            "Would you like to go to [destination]? Do you have a friend in a [place_name]?",
+            "Do you have a favorite game in your home? Do you have a game of yoga?",
+            "It's wonderful! How about the circus?",
+            "Would you like to go to this circus?"
+        ]
+    },
+    {
+        "id": "simulateTOD_0007",
+        "dialog": [
+            "It was crazy! But I'm glad she's keeping us busy so we don't have to deal with the craziness.",
+            "So true! It was nice talking to you and I hope you and your family enjoy your trip to Hawaii!",
+            "Thank you! Have you been to Hawii before? I'd love to go someday.",
+            "I would love to visit Hawai'i. It's one of my favorite states to visit. Have you ever been?",
+            "No, I've never been, but I've always wanted to go. It sounds like it would be so beautiful.",
+            "It really is. It is on the mainland of Hawaiian Islands, so there's so much to see. ",
+            "That sounds great. I'm sure it's gorgeous there!  Do you have any fun plans this weekend?",
+            "Yeah, are you going to have a trip to Hawaii?",
+            "Yeah, I want to go to a Museum in New York City.",
+            "There are [count] attractions you might like. You should check out the [attraction_name]. It's a [category].",
+            "Okay, cool. I also need to find a house to stay in while I'm there.",
+            "I found a nice house at [address] that has a [rating] rating.",
+            "That one sounds good.",
+            "Would you like to make a reservation for the house? How long do you want to stay?",
+            "No, not right now. I'd like to stay for two days.",
+            "You would like to reserve a room for [number_of_rooms] at the [hotel_name] in [destination] for [check_in_date]. Is this correct?"
+        ],
+        "intent": {
+            "type": [
+                "FindAttractions"
+            ],
+            "position": 6
+        },
+        "transition_candidates": [
+            "Yeah, are you going to have a trip to Hawaii?",
+            "How about visiting [attraction_name] in [city]? No! I want to visit [attraction_name].",
+            "I've been to Hawaii for about a year now, though, and I now have to visit it. What about you now for visit to a museum?",
+            "It has been amazing. It's on the mainland, so there's so much that you can find. Do you want me to go there? Do you want me to go to your favorite museum?"
+        ]
+    },
+    {
+        "id": "simulateTOD_0008",
+        "dialog": [
+            "Thank you!  Hopefully I don't make a fool of myself.  I have never done anything like this in my life.",
+            "You will be fine, just remember to be confident! I'm sure everything will turn out great!",
+            "Thanks!  I'm hoping everything goes well.  What are you up to?  Vegetarian as well?",
+            "I am not, but I respect other people for that. What about you? How long have you been a vegetarian?",
+            "Since I became a vegeterian, I just do not eat red meat, poultry, or seafood.",
+            "Oh wow. Why did you decide to become a vegetarian? Is it health-related?",
+            "I was just tired of eating red meat.  The eighth century was a long time ago!",
+            "Oh yes, that makes sense. Were you watching any documentaries while you were becoming a vegetaraian?",
+            "Sure. I was watching a lot of documentaries. What about you?",
+            "Yes, I do.",
+            "I found [count] movie you might like. How about [title]?",
+            "Blackmail - Cinemix Par Chloe sounds great.",
+            "Would you like me to play the movie for you right now, or you would like to watch it later?",
+            "Yes, please play it now.",
+            "Can you please confirm that you want to watch [title] without subtitles?",
+            "Yes, that is what I want.",
+            "I will begin playing the movie for you. Please confirm the following details: Play the movie titled [Title_name]. The movie will start playing at [show_time] in the theater."
+        ],
+        "intent": {
+            "type": [
+                "FindMovies"
+            ],
+            "position": 7
+        },
+        "transition_candidates": [
+            "Sure. I was watching a lot of documentaries. What about you?",
+            "Do you have any animal rights?",
+            "You really like tv. Do you want to watch you?",
+            "What about you?"
+        ]
+    },
+    {
+        "id": "simulateTOD_0009",
+        "dialog": [
+            "Oh, I love Darjieling teas! Especially the strawberry one. ",
+            "That sounds so good! I love collect teapot. My collection is almost as big as my cats.",
+            "Oh! That's really cool! How big is your cat collection?   I have had cats in the past!",
+            "What city do you want to look to? What do you think about them?",
+            "I'd like to find some attractions to visit in New York City.",
+            "I found [count] attractions you might like. How about the [attraction_name]? It's a [category].",
+            "Okay, that sounds good.",
+            "You should check out the [street_address]. It's got a [star_rating] star rating.",
+            "Okay, great. I'd also like to find a movie to watch online.",
+            "What kind of movie would you like to watch? And what kind of movies do you like?",
+            "I'd like to see an Adventure movie.",
+            "Where do you want me to look for a movie for you? And do you have a specific movie in mind?"
+        ],
+        "intent": {
+            "type": [
+                "FindAttractions"
+            ],
+            "position": 2
+        },
+        "transition_candidates": [
+            "What city do you want to look to? What do you think about them?",
+            "I like to spend a lot of time with my cats. I would have to search a special place to see [attraction_name]. I have [count] cats. I have a [category]",
+            "I've found [count] locations for cats for you. What city do you want to visit? I found [attraction_name]? You'd like [count] attractions. You may like [attraction_name].",
+            "I found [count] attractions that may interest you. What area would you like like attractions?"
+        ]
+    },
+    {
+        "id": "simulateTOD_0010",
+        "dialog": [
+            "I agree with you on that one.  I hate when people are standing too close.  That's my biggest problem.",
+            "People who do this are the worst. I am so self-conscious about it.  ",
+            "This is so true.  It makes me so angry when people just stand there and watch people do everything.",
+            "Yeah. Do you like video games? I love videogames.  What is your favorite?",
+            "I love them too!  I like to play Legend of Zelda.  How about you?",
+            "I have never played Legend of Zelda before. I have played a lot of World of Warcraft though.",
+            "World of warcraft is fun.  Do you play it a lot?  I've never played that one before.",
+            "Not as much as I used to. But I still play when I have time. How about yourself?",
+            "I don't have much time for video games anymore, but I still love fantasy type stuff. ",
+            "what type of movie do you love?",
+            "I'd like to find a fantasy movie directed by Ronald Neame.",
+            "I have found [count] movie you may like. How about [title]?",
+            "The Poseidon Adventure sounds great.",
+            "Would you like me to start the movie for you? Please confirm that you want to watch the movie titled the [type].",
+            "Yes, that is correct.",
+            "Okay! Please confirm to play the movie [title] with subtitles.",
+            "Yes, proceed.",
+            "Confirming that you want me to start playing the movie with sub titles. Please confirm."
+        ],
+        "intent": {
+            "type": [
+                "FindMovies"
+            ],
+            "position": 8
+        },
+        "transition_candidates": [
+            "what type of movie do you love?",
+            "What is your favorite genre? I'd like to play it. Would you like to play a book?",
+            "I have a lot of time to play video games. Which kind of story do you like?",
+            "I wonder what kind of games would you like to play?"
+        ]
+    }
+]

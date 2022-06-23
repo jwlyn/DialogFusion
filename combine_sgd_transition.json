@@ -1,0 +1,409 @@
+[
+    {
+        "id": "merge_0000",
+        "dialog": [
+            "I really liked it. I did a lot of construction work and loved it.  What kind of work do you do?",
+            "I'm a mechanical engineer. How about you?    what's your favorite hobby?",
+            "I really love reading romance literature. What about you.  Do you have a hobby? ",
+            "I really enjoy going to the gym. That's my favorite hobby.  How about yours?  What do you like to do for fun?",
+            "I really like to read. I'm actually studying to be an author.   Do work out a lot?",
+            "I do. I try to work out at least 3 times a week. It helps me feel better. ",
+            "That's a great habit.  I used to workout a lot, but now I don't.",
+            "I like to listen to music a lot when I work out. What kind do you listen to?",
+            "It is a good song.",
+            "I want to cast the song Music Never Sleeps by Jason Chen on the television.",
+            "Okay, you want to play [song_name] on the [playback_device], right?",
+            "Yes, that is correct. What album is the song from?",
+            "I have started playing the song. It is from the album [album].",
+            "Thank you, I also need to make a bank account transfer.",
+            "Do you want to use your [account_type] or [account_type] account?",
+            "Let's use my savings account.",
+            "Where are you sending money to and what amount do you want to transfer?",
+            "I'm sending 1150 dollars to Pranav.",
+            "Okay, I'm transferring [amount] from my [account_type] account to the [recipient_account_type] account at [recipient_account_name], correct?",
+            "Yes, that is correct.",
+            "I have successfully transferred the money.",
+            "Thank you for your help. I also would like to watch a movie online. I like fantasy movies and movies directed by George Miller.",
+            "I found [count] movie for you, it is [title].",
+            "Mad Max sounds good.",
+            "Is there anything else I can help with?",
+            "No, thank you.",
+            "Have a great day."
+        ],
+        "intent": {
+            "type": [
+                "PlaySong"
+            ],
+            "position": 7
+        },
+        "transition_candidates": [
+            "It is a good song.",
+            "I have to listen to [count] songs. How many times do you like to play the song [song_name] by [artist] from the album [album]. I have a lot of ideas about song that I like. What about yours. Do you like to listen to [play",
+            "What type of music do you like?",
+            "What movie do you have?"
+        ]
+    },
+    {
+        "id": "merge_0001",
+        "dialog": [
+            "I can imagine. It takes a lot of dedication. How old are your sons? ",
+            "They are 8 and 11. So definitely a handful!   Do you have any kids?",
+            "Do you have any kids? Do you have kids?",
+            "Can you find some child friendly things to do nearby?",
+            "There are [count] options. A historical landmark is [attraction_name].",
+            "That sounds good.",
+            "Can I help you with anything else?",
+            "No, thanks a lot.",
+            "Have a nice trip."
+        ],
+        "intent": {
+            "type": [
+                "FindAttractions"
+            ],
+            "position": 1
+        },
+        "transition_candidates": [
+            "Do you have any kids? Do you have kids?",
+            "I do not have any kids, I think. Can you tell me about your child?",
+            "You might not have any, but you?",
+            "Yeah, how old are your sons?"
+        ]
+    },
+    {
+        "id": "merge_0002",
+        "dialog": [
+            "the interview went really well and then i found out i didn't get the job.  it was a shame.",
+            "that is terrible. I hope you have better luck in the future. what kind of job were you looking for?",
+            "I was looking for a job in the public sector so I could work with my dad. ",
+            "Oh cool. Do you think you will find a good job there?  I watch a lot of foreign movies",
+            "Any other kind of movie?",
+            "I am need of some kind of comic type movies",
+            "I have selected [count] movies of your choice. One of them is [movie_name], [movie_name] and [movie_name]",
+            "I will select A madea Family Funeral. Can you also look for some visiting attractions there?",
+            "Which place you want me to search for attractions?",
+            "I need attractions in Mexico City",
+            "I have short listed [count] attractions of your choice. You can look in [attraction_name] which is a [category]",
+            "Fine.Now i need to hear for songs of Jason Aldean",
+            "What is your opinion on [song_name] by [artist] in the album [album]?",
+            "You have anything more?",
+            "What is your opinion on [song_name] by [artist] in the album [album]",
+            "Which is that music type and when it got released?",
+            "It got released in [year] and is a [genre] song",
+            "Yes, this the song i want. I like to listen this music. Play in any device.",
+            "Please give confirmation details: Run the song [song_name] on [playback_device]",
+            "Okay, this would be perfect.",
+            "Have fun with your music.",
+            "Thank you so much. Could you rent the movie you searched?",
+            "Please give confirmation details: You want to watch a movie [movie_name] with no subtitles.",
+            "okay, fine. This is perfect.",
+            "I have rented your movie successfully and you can watch this movie by 3 days.",
+            "Thanks in tones. That's all i want.",
+            "Have a nice day. Bye for now."
+        ],
+        "intent": {
+            "type": [
+                "FindMovies"
+            ],
+            "position": 3
+        },
+        "transition_candidates": [
+            "Any other kind of movie?",
+            "what sort of movies were you looking for?",
+            "What kind of movies do you like?",
+            "What genre would you like me to see?"
+        ]
+    },
+    {
+        "id": "merge_0003",
+        "dialog": [
+            "I see.  Is she a personality or a director or something like that?  What kind of things does she do?",
+            "She is a youtube beauty guru. She is currently a makeup artist and she also makes videos about make up",
+            "That sounds interesting.  I will have to check her out.  Do you follow her on Youtube?",
+            "Yes i do. I watch mostly beauty vloggers. Do you have any favorite makeup gurus?",
+            "She has really a strong name. What about [count] makeup gurus?",
+            "Can you get me a movie with Daniel Camp in it?",
+            "There is [count], what about [movie_title]? it got [percent_rating] rating.",
+            "Fine, how about a restaurant?",
+            "What food do you prefer?",
+            "I only eat pasta, you know that.",
+            "Where will you go, what town?",
+            "Fine Livermore please.",
+            "You might like [restaurant_name], it is in [location] after all.",
+            "Yea, that' fine. How about a table on Saturday this week?",
+            "What time do you want to eat?",
+            "at 1:45 in the afternoon please.",
+            "Sure to confirm: [number_of_seats] for [restaurant_name] in [location] at [time] on [date].",
+            "No wrong, I need a table for three.",
+            "Sure, to be clear: [number_of_seats] People eating on [date]?",
+            "Yes, are they Ultra high-end? How can I reach them?",
+            "You can phone [restaurant_name] at [phone_number], and they have [price_range] pricing. The time you chose doesn't work, Do you want me to try a reservation on [date] at [time] for [number_of_seats]?",
+            "No, I can't do that.",
+            "Have a pleasant time."
+        ],
+        "intent": {
+            "type": [
+                "FindMovies"
+            ],
+            "position": 3
+        },
+        "transition_candidates": [
+            "She has really a strong name. What about [count] makeup gurus?",
+            "You are a makeup artist. Do you have any favorite makeup gurus?",
+            "What is your favorite makeup guru or not?",
+            "I have some favorite hairdressers. There are [count] celebrities in that one. What do you know about [stylist_name]?"
+        ]
+    },
+    {
+        "id": "merge_0004",
+        "dialog": [
+            "It is! There's a lot to see and do. I haven't been to NYC yet.",
+            "I have never been to the city before. How was your trip?  What did you do while there?",
+            "I went to a few different museums and saw some gorgeous stuff! It's pretty expensive though.",
+            "There's an interesting museum that you can check out. Some of them. It is interesting to know a few things.",
+            "Can you find me some attractions, perhaps a museum?",
+            "Where would you like me to look?",
+            "Find something in Toronto, Ontario please.",
+            "I found [count] in Toronto. How about the museum [attraction_name]?",
+            "That would be great! I want to go on the 4th of March please.",
+            "You are available from [available_start_time] to [available_end_time] on [event_date].",
+            "Sounds great thanks.",
+            "Would you like it added to your calendar.",
+            "No Thank you.",
+            "Can I do anything else for you?",
+            "I need a cab.",
+            "Do you want a shared ride? How many will be riding?",
+            "Just 2 people.",
+            "Do you need a shared ride?",
+            "Shared is okay and it's just 1 person.",
+            "You want a shared ride for [number_of_riders] to [destination], correct>",
+            "Yes that is correct. How much is the total?",
+            "Your ride is [ride_fare] and is on the way.",
+            "How long will it take to get there?",
+            "It takes about [approximate_ride_duration] minutes.",
+            "Thanks, that is all for now.",
+            "Okay, enjoy you day."
+        ],
+        "intent": {
+            "type": [
+                "FindAttractions"
+            ],
+            "position": 2
+        },
+        "transition_candidates": [
+            "There's an interesting museum that you can check out. Some of them. It is interesting to know a few things.",
+            "It's a pristine museum, a fine museum, and a museum.",
+            "What about your trip?",
+            "It was nice, but it's not too expensive, right?"
+        ]
+    },
+    {
+        "id": "merge_0005",
+        "dialog": [
+            "Music, basketball, and rock music keep me so busy.  What about you?  ",
+            "Cool! I like going to museums and reading the newspaper. It is relaxing. What's your favorite rock band?",
+            "I am a rock star and I like to go to the museum. It is a very relaxing place to visit.",
+            "Can you find me some child-friendly atttractions to visit please.",
+            "Where would you like me to search?",
+            "I am in London.",
+            "There are [count] attractions you might be interested in. Why not check out [attraction_name]. It's a [category].",
+            "Is there an entrance fee for this attraction? Can I get there phone number too?",
+            "Yes. The entry will be free, and the number is [phone_number].",
+            "Okay, I also need a Hotel there.",
+            "I have one at [hotel_name] which is rated [average_rating].",
+            "No, that's not for me. Anything else?",
+            "What about the [hotel_name] which is rated a [average_rating]?",
+            "No, I would prefer something else.",
+            "Okay, [hotel_name] is rated [average_rating].",
+            "That's it. I want to make the reservation. I need 2 rooms.",
+            "What date are you goingto check-in and check-out?",
+            "I want to check-in on 7th of this month, and check-out on 14th of March.",
+            "Okay, let's confirm the details. [number_of_rooms] rooms at [hotel_name] in [location], you'll check-in on [check_in_date], and check-out on [check_out_date].",
+            "Yeah that works fine for me. What is the street address? What does it cost?",
+            "The reservationw was successful. The address is [street_address]. It costs [price].",
+            "Thanks that will be great.",
+            "Have a wonderful stay."
+        ],
+        "intent": {
+            "type": [
+                "FindAttractions"
+            ],
+            "position": 1
+        },
+        "transition_candidates": [
+            "I am a rock star and I like to go to the museum. It is a very relaxing place to visit.",
+            "I found [count] bands for you. My favorite album is [album].",
+            "Do you have any other specific interests?",
+            "Yeah, I am really busy with music. I have a lot of music. I love to hear music. It's not a problem. if I have anything in mind, I would love to hear that."
+        ]
+    },
+    {
+        "id": "merge_0006",
+        "dialog": [
+            "I think it was blue. I like Elvis. What kind of music do you like? ",
+            "i like Elvis, it is a [genre] type of song. Probably not. So, i think it was blue.",
+            "Can you find me some songs?",
+            "Sure. I found [count] songs for you. How about [track] [artist]? It is from the album [album].",
+            "What genre is this? What year was it released?",
+            "It is a [genre] song from the year [year].",
+            "Yes, that's the one I want. Can you find me some good Julia Stiles movies online?",
+            "What genre would you like?",
+            "Play movies would be nice.",
+            "How about the movie [title]?",
+            "Hustlers would be great. Can you play that song that you just found? Play it on any device.",
+            "I will play the song [track] in the [device]. Is this correct?",
+            "No. Cast it on the speaker in kitchen.",
+            "Confirming that you want me to play the song [track] in the [device]?",
+            "Yes, that is correct.",
+            "Enjoy your music!",
+            "Thank you. That's all for now.",
+            "You're welcome. Have a good day."
+        ],
+        "intent": {
+            "type": [
+                "LookupMusic"
+            ],
+            "position": 0
+        },
+        "transition_candidates": [
+            "i like Elvis, it is a [genre] type of song. Probably not. So, i think it was blue.",
+            "I found [count] songs you may like: [song_name] by [artist] from the album [album].",
+            "[song_name] by [artist] sounds good",
+            "Which one do you want?"
+        ]
+    },
+    {
+        "id": "merge_0007",
+        "dialog": [
+            "Wow! I did not know that. That's pretty cool! Do you collect comics? I love them.",
+            "Cool! So you have comics?",
+            "Find me a movie to see.",
+            "What city shall I search in?",
+            "Search for movies playing in Redwood City.",
+            "[movie_name], [movie_name] and [movie_name] are all plying in Redwood City.",
+            "Brittany Runs a Marathon sounds good. Book me a restaurant table at Yokohama for morning 11.",
+            "You want to book a table at [restaurant_name] in [location] for [number_of_seats] people on [date] at [time], correct?",
+            "No, the reservation is for 3 people.",
+            "Your reservation is for [number_of_seats] people on [date], correct?",
+            "That is right.",
+            "Your table is booked.",
+            "What kind of food is on the menu and can you sit outside?",
+            "They have [category] food and there is no outdoor seating.",
+            "Thanks a bunch.",
+            "Do you need anything more?",
+            "What times are that movie playing?",
+            "There is [count] showtime and it is at [theater_name] at [show_time].",
+            "How much does it cost and what movie genre is it?",
+            "The cost is [price] a person and it is under the [genre] genre.",
+            "That is good. I don't need anymore help right now.",
+            "Have a great day."
+        ],
+        "intent": {
+            "type": [
+                "FindMovies"
+            ],
+            "position": 0
+        },
+        "transition_candidates": [
+            "Cool! So you have comics?",
+            "Are you interested in reading the comic?",
+            "What else are you interested in?",
+            "What type of comic?"
+        ]
+    },
+    {
+        "id": "merge_0008",
+        "dialog": [
+            "I like to go fishing, camping, and hiking. What about you?  ",
+            "That's cool. I love swimming. I could wear my swimsuits all day. Do you?",
+            "And what kind of swimsuit are you?",
+            "Okay, can you show me some attractions there?",
+            "What about the performing arts venue [attraction_name].",
+            "Thanks, that is all I needed.",
+            "Have a great day."
+        ],
+        "intent": {
+            "type": [
+                "FindAttractions"
+            ],
+            "position": 1
+        },
+        "transition_candidates": [
+            "And what kind of swimsuit are you?",
+            "I think I should go snorkeling and swim so I don't wear anything at all so I can swim.",
+            "Hi.. I'm fine. I love swimming. I like going fishing. I like swimming. I love swimming. I love cycling. Do you like swimming? I like swimming too.",
+            "I've been swimming to a lot, but I would be able to wear my swimsuits my entire day."
+        ]
+    },
+    {
+        "id": "merge_0009",
+        "dialog": [
+            "That sounds fun! I would love to visit one day. What are your favorite spots?  ",
+            "I found [count] attractions, like the [attraction_name], the [attraction_name]. I have definitely a history of visiting SF. There are [count] attractions.",
+            "I have a visit to SF, can you find some attractions there something like a park?",
+            "You will surely love [attraction_name], nice park.",
+            "I would like to know whether it is child-friendly and entrance is free.",
+            "Entrance is free but not meant for kids.",
+            "Then check any other attractions are there",
+            "Another option is [attraction_name], also another [category].",
+            "One more help, are there show times for movies?",
+            "You can enjoy from [count] movies. I think you may like [movie_name], [movie_name] or [movie_name].",
+            "Brittany Runs a Marathon will be the one I choose.",
+            "Do you need to book tickets for that?",
+            "Not now, thank you.",
+            "Any other help?",
+            "Check if Imaginative fiction movies are available online preferably of Norman Bartold.",
+            "You can watch [title].",
+            "Close encounters is a good choice. Please help to watch it now.",
+            "Please confirm the request, you want to watch [title] with [subtitle_language] subtitles online",
+            "Correct, go on.",
+            "Sorry, it is not available, any other help?",
+            "No thats all.",
+            "My pleasure to help you."
+        ],
+        "intent": {
+            "type": [
+                "FindAttractions"
+            ],
+            "position": 0
+        },
+        "transition_candidates": [
+            "I found [count] attractions, like the [attraction_name], the [attraction_name]. I have definitely a history of visiting SF. There are [count] attractions.",
+            "I found some awesome attraction that makes it interesting.",
+            "What is your favorite city?",
+            "Would you like to go there?"
+        ]
+    },
+    {
+        "id": "merge_0010",
+        "dialog": [
+            "I'll definitely check out the Richard Stones.  What's your favorite song by Jagger?",
+            "What type of song would you like to hear?",
+            "Can you please help me find some Hillbilly songs. I'd particularly enjoy something from the album Chief by Eric Church.",
+            "There's [count] song matching your criteria - [track] from the album [album] by [artist].",
+            "Yes, that's perfect.",
+            "Do you want me to play it for you?",
+            "No, not at the moment. Please find me some Action movies to watch online featuring Darren Eisnor.",
+            "Would you like [title]?",
+            "Yes, Riot Girls is awesome!",
+            "Do you want me to play it for you?",
+            "No, not at the moment. Let's play that song that you found earlier.",
+            "Can you please confirm that you want me to play [track] in the Living Room?",
+            "Yes, please do. And also, please tell me when did it came out.",
+            "The song came out in [year]. I've started playing it. Enjoy!",
+            "Thanks a lot. That will be all for now!",
+            "My pleasure! Have a nice day!"
+        ],
+        "intent": {
+            "type": [
+                "LookupMusic"
+            ],
+            "position": 0
+        },
+        "transition_candidates": [
+            "What type of song would you like to hear?",
+            "I found [count] songs you might like. What's your favorite song? [song_name] by [artist] from the album [album]?",
+            "Great!",
+            "Which song?"
+        ]
+    }
+]
